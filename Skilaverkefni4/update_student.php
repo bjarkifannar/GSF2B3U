@@ -28,7 +28,7 @@
 			require_once 'msg.php'; /* Require the msg file */
 		?>
 		<div class="section">
-			<a href="index.php">Back</a>
+			<a href="student.php">Back</a>
 		</div>
 		<form action="" method="POST" accept-charset="utf-8">
 			<input type="hidden" name="us_id" value="<?php echo $_POST['us_id']; ?>">

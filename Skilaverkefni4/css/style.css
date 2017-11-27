@@ -30,10 +30,15 @@ form h3 {
 	padding: 0.5em 0;
 }
 
-form input, form select {
+form input, form select, form textarea {
 	outline: none;
 	width: 100%;
 	font-family: Arial, Helvetica, sans-serif;
+}
+
+form textarea {
+	resize: none;
+	height: 15em;
 }
 
 form input[type="submit"] {
@@ -68,6 +73,6 @@ form input[type="submit"] {
 	border: 1px solid #aaa;
 }
 
-.section b {
+.section b:nth-child(1) {
 	font-size: 120%;
 }
